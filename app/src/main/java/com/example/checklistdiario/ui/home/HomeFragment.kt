@@ -11,8 +11,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.checklistdiario.R
 import com.example.checklistdiario.adapter.FolderAdapter
 import com.example.checklistdiario.view_model.HomeViewModel
-import com.google.android.flexbox.AlignContent
-import com.google.android.flexbox.AlignItems
 import com.google.android.flexbox.FlexboxLayoutManager
 import com.google.android.flexbox.JustifyContent
 
@@ -31,7 +29,7 @@ class HomeFragment : Fragment() {
         val root = inflater.inflate(R.layout.fragment_home, container, false)
         val recycleView = root.findViewById<RecyclerView>(R.id.recycleView)
 
-        val layoutManager = FlexboxLayoutManager(context);
+        val layoutManager = FlexboxLayoutManager(context)
         layoutManager.justifyContent = JustifyContent.SPACE_BETWEEN
         recycleView.layoutManager = layoutManager
 
