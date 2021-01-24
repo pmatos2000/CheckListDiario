@@ -14,7 +14,7 @@ class HomeViewModel : ViewModel() {
 
 
     init {
-        _folderLiveData.value = Array(20) { Folder("Pasta") }
+        _folderLiveData.value = Array(21) { Folder("Pasta") }
     }
 
 }
