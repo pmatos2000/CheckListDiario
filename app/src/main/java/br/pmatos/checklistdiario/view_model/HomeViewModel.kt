@@ -1,8 +1,8 @@
-package com.example.checklistdiario.view_model
+package br.pmatos.checklistdiario.view_model
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.checklistdiario.model.Folder
+import br.pmatos.checklistdiario.model.Folder
 
 class HomeViewModel : ViewModel() {
 

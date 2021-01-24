@@ -1,12 +1,12 @@
-package com.example.checklistdiario.adapter
+package br.pmatos.checklistdiario.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.checklistdiario.R
-import com.example.checklistdiario.model.Folder
+import br.pmatos.checklistdiario.R
+import br.pmatos.checklistdiario.model.Folder
 
 class FolderAdapter(private val dataSet: Array<Folder>) :
     RecyclerView.Adapter<FolderAdapter.ViewHolder>() {

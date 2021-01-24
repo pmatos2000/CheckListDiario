@@ -1,4 +1,4 @@
-package com.example.checklistdiario.ui.home
+package br.pmatos.checklistdiario.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,9 +8,9 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
-import com.example.checklistdiario.R
-import com.example.checklistdiario.adapter.FolderAdapter
-import com.example.checklistdiario.view_model.HomeViewModel
+import br.pmatos.checklistdiario.R
+import br.pmatos.checklistdiario.adapter.FolderAdapter
+import br.pmatos.checklistdiario.view_model.HomeViewModel
 import com.google.android.flexbox.FlexboxLayoutManager
 import com.google.android.flexbox.JustifyContent
 
