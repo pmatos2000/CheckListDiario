@@ -11,5 +11,6 @@
     <string name="menu_settings">Configuração</string>
     <string name="check_list_folder_image_description">Imagem que representa a pasta</string>
     <string name="name_folder">Nome da pasta</string>
+    <string name="float_description">Botão para adicionar uma pasta ou um checlist</string>
 
 </resources>
