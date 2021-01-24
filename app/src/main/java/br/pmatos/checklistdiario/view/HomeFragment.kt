@@ -1,4 +1,4 @@
-package br.pmatos.checklistdiario.home
+package br.pmatos.checklistdiario.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
