@@ -9,5 +9,7 @@
 
     <string name="menu_home">Inicio</string>
     <string name="menu_settings">Configuração</string>
+    <string name="check_list_folder_image_description">Imagem que representa a pasta</string>
+    <string name="name_folder">Nome da pasta</string>
 
 </resources>
