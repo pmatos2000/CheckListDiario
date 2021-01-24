@@ -9,7 +9,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
 import br.pmatos.checklistdiario.R
-import br.pmatos.checklistdiario.adapter.FolderAdapter
+import br.pmatos.checklistdiario.adapter.CardAdapter
 import br.pmatos.checklistdiario.view_model.HomeViewModel
 import com.google.android.flexbox.FlexboxLayoutManager
 import com.google.android.flexbox.JustifyContent
@@ -30,11 +30,11 @@ class HomeFragment : Fragment() {
         val recycleView = root.findViewById<RecyclerView>(R.id.recycleView)
 
         val layoutManager = FlexboxLayoutManager(context)
-        layoutManager.justifyContent = JustifyContent.SPACE_BETWEEN
+        layoutManager.justifyContent = JustifyContent.CENTER
         recycleView.layoutManager = layoutManager
 
-        homeViewModel.folderLiveData.observe(viewLifecycleOwner, Observer { folderArray ->
-            recycleView.adapter =  FolderAdapter(folderArray)
+        homeViewModel.folderCardLiveData.observe(viewLifecycleOwner, Observer { folderArray ->
+            recycleView.adapter =  CardAdapter(folderArray)
         })
 
         return root
