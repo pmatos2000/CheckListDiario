@@ -10,6 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
 import br.pmatos.checklistdiario.R
 import br.pmatos.checklistdiario.adapter.CardAdapter
+import br.pmatos.checklistdiario.enum.FolderDisplayMode
 import br.pmatos.checklistdiario.view_model.HomeViewModel
 import com.google.android.flexbox.FlexboxLayoutManager
 import com.google.android.flexbox.JustifyContent
@@ -34,7 +35,7 @@ class HomeFragment : Fragment() {
         recycleView.layoutManager = layoutManager
 
         homeViewModel.folderCardLiveData.observe(viewLifecycleOwner, Observer { folderArray ->
-            recycleView.adapter =  CardAdapter(folderArray)
+            recycleView.adapter =  CardAdapter(folderArray, FolderDisplayMode.DEFAULT)
         })
 
         return root

@@ -1,3 +1,5 @@
 package br.pmatos.checklistdiario.model
 
-data class FolderCard(override  val title: String ): Card
+import br.pmatos.checklistdiario.enum.IconID
+
+data class FolderCard(override  val title: String, override val icon: IconID = IconID.FOLDER): Card
