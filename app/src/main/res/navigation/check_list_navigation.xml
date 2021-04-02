@@ -7,8 +7,8 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="br.pmatos.checklistdiario.view.HomeFragment"
-        android:label="@string/menu_home"
+        android:name="br.pmatos.checklistdiario.view.CheckListFragment"
+        android:label="@string/nome_check_list"
         tools:layout="@layout/fragment_home" />
 
 </navigation>

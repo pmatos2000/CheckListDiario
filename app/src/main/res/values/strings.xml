@@ -11,5 +11,14 @@
     <string name="menu_settings">Configuração</string>
     <string name="check_list_folder_image_description">Imagem que representa a pasta</string>
     <string name="name_folder">Nome da pasta</string>
+    <string name="float_description">Botão para adicionar uma pasta ou um checlist</string>
+    <string name="title_check_list">Titulo check list</string>
+    <string name="label_progress">xx de xx checks concluido</string>
+    <string name="title_activity_check_list">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title">Titulo</string>
+    <string name="nome_check_list">Check List</string>
 
 </resources>
